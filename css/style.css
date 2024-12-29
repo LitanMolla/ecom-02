@@ -1,0 +1,729 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Goldman", serif;
+}
+
+p{
+    font-family: "Lato", serif;
+}
+/* All Common CSS End */
+
+/* Navtop Part Start */
+#navTop{
+    background: black;
+    padding: 5px 0;
+}
+
+.navContact a{
+    font-family: "Lato", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    margin-right: 15px;
+    transition: .5s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navContact i{
+    font-size: 20px;
+}
+
+.topSocialicon a:hover{
+    color: dodgerblue;
+}
+
+.topSocialicon a{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: .5s;
+}
+/* Navtop Part End */
+
+
+/* Nave Part Start */
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    margin: 0 10px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    border-top: 2px solid #87678B;
+    color: #87678B;
+}
+
+.navButton i{
+    font-size: 25px;
+    color: #fff;
+}
+
+.navButton{
+    gap: 30px;
+}
+
+button{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    background: #87678B;
+    border-radius: 3px;
+    padding: 15px 30px;
+    border: none;
+    transition: .5s;
+}
+
+button:hover{
+    color: #87678B;
+    background: #fff;
+    border: 1px solid #87678B;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/* Nave Part End */
+
+
+/* Banner Part Start */
+#bannerBg{
+    background: url(../images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgOberlay{
+    padding-top: 170px;
+    background: rgba(0, 0, 0, 0.315);
+}
+
+.bannerText h1{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+}
+
+.bannerText p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.bannerText button{
+    justify-content: center;
+}
+
+.datePart{
+    margin: 0 50px;
+    margin-bottom: 1px;
+}
+
+.datePart{
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 98px;
+}
+
+.dateItem{
+    padding: 25px;
+    gap: 15px;
+    border-left: 1px solid #87678B;
+    flex: 1;
+}
+
+.calenderIcon{
+    font-size: 30px;
+    color: gray;
+}
+
+.dateText h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dateText p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: gray;
+}
+
+.dateText label{
+    font-family: "Lato", serif;
+    color: gray;
+}
+.dateText select{
+    font-family: "Lato", serif;
+    color: gray;
+}
+
+.dateItem button{
+    width: 100%;
+    height: 100%;
+}
+
+.dateItem:last-child{
+    padding: 0;
+}
+/* Banner Part End */
+
+
+/* Offer Part Start */
+#offerPart{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.offerTxt h1{
+    font-size: 120px;
+    font-weight: 400;
+    color: #B8AB9F;
+}
+.offerTxt h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.offerRight h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: normal;
+    letter-spacing: 0%;
+    padding-right: 50px;
+}
+
+.offerRight p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #858585;
+    line-height: 28px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.offerRight h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    color: #87678B;
+}
+
+.offerRight{
+    border-left: 1px solid #87678B;
+    padding-left: 25px;
+}
+/* Offer Part End */
+
+
+/* Product Part Start */
+#productPart{
+    margin-bottom: 100px;
+}
+
+.productItem{
+    background: #fff;
+    box-shadow: 0 0 5px #0000001e;
+}
+
+.productText{
+    padding: 25px;
+}
+
+.productText h2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.productText h3{
+    font-family: "Lato", serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: normal;
+    color: #87678B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pDetils{
+    margin-bottom: 20px;
+}
+
+.pDetils p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #858585;
+}
+
+.pDetils i{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #000000;
+}
+
+.vD{
+    background: #D3B27C;
+}
+/* Product Part End */
+
+
+/* Promo Part Start */
+.promoPart{
+    background: #F2F3F2;
+    background-image: url(../images/promobg.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.promobannerText{
+    padding: 100px 0;
+}
+
+.promobannerText h1{
+    font-size: 60px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.promobannerText h3{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 0 170px;
+}
+/* Promo Part End */
+
+
+/* Service Part Start */
+#servicePart{
+    margin: 100px 0;
+}
+
+.serviceLeft h1{
+    font-size: 120px;
+    line-height: normal;
+    font-weight: normal;
+    color: #B8AB9F;
+}
+
+.serviceLeft h3{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0%;
+}
+
+.serviceRight{
+    border-left: 1px solid #87678B;
+    padding-left: 25px;
+}
+
+.sRightHeader h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: normal;
+    letter-spacing: 0%;
+    padding-right: 135px;
+    margin-bottom: 20px;
+}
+
+.sRightHeader p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+
+.serviceItem i{
+    font-size: 60px;
+    background: linear-gradient(90deg, #D3B27C 0%, #C19F6A 54%, #9A7345 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.serviceItem h4{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    letter-spacing: 0%;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.serviceItem p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #858585;
+    letter-spacing: 0%;
+
+}
+/* Service Part End */
+
+
+/* Location Part Start */
+#locationPart{
+    background: #000000;
+    padding: 100px 0;
+}
+
+.locationHeader h1{
+    font-size: 42px;
+    line-height: normal;
+    font-weight: normal;
+    color: #fff;
+}
+
+.locationHeader p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.locationSearch{
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.locationSearch input:focus{
+    color: #858585;
+}
+.locationSearch input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    flex: 1;
+    outline: none;
+}
+
+.map iframe{
+    width: 100%;
+    height: 50vh;
+}
+/* Location Part End */
+
+
+/* Reveiw Part Start */
+#reviewPart{
+    margin: 100px 0;
+}
+
+.reviewText h1{
+    font-size: 120px;
+    line-height: normal;
+    font-weight: normal;
+    color: #B8AB9F;
+}
+
+.reviewText h3{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0%;
+}
+
+.cPhoto{
+    height: 100px;
+    width: 100px;
+}
+
+.cPhoto img{
+    border-radius: 50%;
+    border: 3px solid #220b0b73;
+}
+
+.clentProfile{
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.cName p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.cName p i{
+    margin: 0;
+    padding: 0;
+    color: #FFC107;
+    margin-top: 15px;
+}
+
+.reviewRight{
+    border-left: 1px solid #87678B;
+    padding-left: 25px;
+}
+
+.reviewRight p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #858585;
+}
+/* Reveiw Part End */
+
+
+/* Galery Part Start */
+#galeryPart{
+    margin: 100px 0;
+}
+
+.galItem{
+    position: relative;
+    padding: 2px;
+}
+
+.gIText{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    width: 60%;
+}
+.gIText h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.galItem p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.galItem a{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    color: #87678B;
+}
+
+.gaR8{
+    position: relative;
+    top: 50px;
+}
+/* Galery Part End */
+
+
+/* Footer Part Start */
+#footerPart{
+    margin: 100px 0;
+}
+
+.footerLeft p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+
+
+.subscriber input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #87678B;
+    padding: 15px 0;
+    flex: 1;
+}
+
+.subscriber{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.fmenuItem h4{
+    font-size: 22px;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.fmenuItem{
+    flex: 1;
+}
+
+.fmenuItem ul{
+    padding: 0;
+}
+
+.fmenuItem ul li{
+    margin-top: 20px;
+}
+.fmenuItem ul li a{
+    font-family: "Lato", serif;
+    font-size: 18px;
+    line-height: normal;
+    color: #000000;
+}
+
+.fm2 i{
+    color: #87678B;
+}
+
+.fmenuItem i{
+    margin-right: 10px;
+}
+/* Footer Part End */
+
+
+/* Name Part Start */
+#fbootom{
+    background: #000000;
+    padding: 10px 0;
+}
+
+.footerText p{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footerSocial{
+    gap: 20px;
+}
+
+.footerSocial a i{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.navbar-toggler i{
+    font-size: 30px;
+    color: #fff;
+}
+
+.navbar-toggler i:hover{
+    color: #000000;
+}
+
+
+.sticky_menu{
+    background: #000000;
+    animation: alamin 1s;
+    }
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+
+
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+

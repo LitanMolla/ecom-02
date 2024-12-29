@@ -1,0 +1,415 @@
+/* Extra large devices */
+@media (min-width: 1200px) {  }
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    *{
+        overflow-x: hidden;
+        line-height: normal !important;
+    }
+
+    .datePart {
+        display: grid !important;
+        justify-content: center !important;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        background: black;
+        border-radius: 10px;
+    }
+
+    .navButton {
+        justify-content: center;
+        width: 100%;
+        background: black;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .dateItem {
+        border-left: 0;
+    }
+
+    .offerTxt {
+        text-align: center !important;
+    }
+
+    .offerRight {
+        border-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .offerRight h1 {
+        font-size: 38px;
+        padding-right: 0;
+    }
+
+    .productItem{
+        margin-bottom: 50px;
+    }
+
+    .promobannerText h3 {
+        font-size: 33px;
+        padding: 0 20px;
+    }
+
+    .serviceLeft {
+        text-align: center !important;
+    }
+
+    .serviceRight {
+        border-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .sRightHeader h1 {
+        padding-right: 0;
+    }
+
+    .pButton button{
+        font-size: 14px;
+    }
+
+    #servicePart {
+        margin: 50px 0;
+    }
+
+    .reviewText h1,.reviewText {
+        text-align: center !important;
+    }
+
+    .cPhoto {
+        scrollbar-width: none;
+    }
+
+    .cPhoto img {
+        width: 97%;
+        border-radius: 50%;
+        border: 3px solid #220b0b73;
+    }
+
+    .reviewRight {
+        border-left: none;
+        padding-left: 0;
+        text-align: center !important;
+    }
+
+       
+    .gaR8 {
+        position: relative;
+        top: 0;
+    }
+
+    .footerSocial {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+
+    #galeryPart {
+        margin: 50px 0;
+    }
+    /* ==================================== */
+    .bannerText,.clentProfile,.footerText{
+        text-align: center;
+    }
+    /* ==================================== */
+    
+ }
+
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    *{
+        overflow-x: hidden;
+        line-height: normal !important;
+    }
+
+    .datePart {
+        display: grid !important;
+        justify-content: center !important;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        background: black;
+        border-radius: 10px;
+    }
+
+    .navButton {
+        justify-content: center;
+        width: 100%;
+        background: black;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .dateItem {
+        border-left: 0;
+    }
+
+    .offerTxt {
+        text-align: center !important;
+    }
+
+    .offerRight {
+        border-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .offerRight h1 {
+        font-size: 38px;
+        padding-right: 0;
+    }
+
+    .productItem{
+        margin-bottom: 50px;
+    }
+
+    .promobannerText h3 {
+        font-size: 33px;
+        padding: 0 20px;
+    }
+
+    .serviceLeft {
+        text-align: center !important;
+    }
+
+    .serviceRight {
+        border-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .sRightHeader h1 {
+        padding-right: 0;
+    }
+
+    .dateItem {
+   
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    #offerPart {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #productPart {
+        margin-bottom: 0px;
+    }
+
+    .promoBanner{
+        margin-bottom: 20px;
+    }
+
+    #servicePart {
+        margin: 50px 0;
+    }
+
+    .reviewText h1,.reviewText {
+        text-align: center !important;
+    }
+
+    .cPhoto {
+        scrollbar-width: none;
+    }
+
+    .cPhoto img {
+        width: 97%;
+        border-radius: 50%;
+        border: 3px solid #220b0b73;
+    }
+
+    .reviewRight {
+        border-left: none;
+        padding-left: 0;
+        text-align: center !important;
+    }
+
+    #reviewPart {
+        margin: 50px 0;
+    }
+
+    .galItem p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    
+    .gaR8 {
+        position: relative;
+        top: 0;
+    }
+    
+    .footerSocial {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+
+    #galeryPart {
+        margin: 50px 0;
+    }
+    /* ==================================== */
+    .bannerText,.clentProfile,.footerText{
+        text-align: center;
+    }
+    /* ==================================== */
+ }
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    *{
+        overflow-x: hidden;
+        line-height: normal !important;
+    }
+
+    .datePart {
+        display: grid !important;
+        justify-content: center !important;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        background: black;
+        border-radius: 10px;
+    }
+
+    .navButton {
+        justify-content: center;
+        width: 100%;
+        background: black;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .dateItem {
+        border-left: 0;
+    }
+
+    .offerTxt {
+        text-align: center !important;
+    }
+
+    .offerRight {
+        border-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .offerRight h1 {
+        font-size: 38px;
+        padding-right: 0;
+    }
+
+    .productItem{
+        margin-bottom: 50px;
+    }
+
+    .promobannerText h3 {
+        font-size: 33px;
+        padding: 0 20px;
+    }
+
+    .serviceLeft {
+        text-align: center !important;
+    }
+
+    .serviceRight {
+        border-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .sRightHeader h1 {
+        padding-right: 0;
+    }
+
+    .dateItem {
+   
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    #offerPart {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #productPart {
+        margin-bottom: 0px;
+    }
+
+    .promoBanner{
+        margin-bottom: 20px;
+    }
+
+    #servicePart {
+        margin: 50px 0;
+    }
+
+    .reviewText h1,.reviewText {
+        text-align: center !important;
+    }
+
+    .cPhoto {
+        scrollbar-width: none;
+    }
+
+    .cPhoto img {
+        width: 97%;
+        border-radius: 50%;
+        border: 3px solid #220b0b73;
+    }
+
+    .reviewRight {
+        border-left: none;
+        padding-left: 0;
+        text-align: center !important;
+    }
+
+    #reviewPart {
+        margin: 50px 0;
+    }
+
+    .galItem p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    
+    .gaR8 {
+        position: relative;
+        top: 0;
+    }
+    
+    .footerSocial {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+
+    #galeryPart {
+        margin: 50px 0;
+    }
+    /* ==================================== */
+    .bannerText,.clentProfile,.footerText{
+        text-align: center;
+    }
+    /* ==================================== */
+ }
